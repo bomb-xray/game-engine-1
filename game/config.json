@@ -1,0 +1,13 @@
+{
+  "GameTitle": "Gothic 2.5D Odyssey",
+  "InternalWidth": 320,
+  "InternalHeight": 180,
+  "ScaleFactor": 4,
+  "TargetFPS": 60,
+  "VSync": true,
+  "Audio": {
+    "MasterVolume": 1.0,
+    "MusicVolume": 0.8,
+    "SFXVolume": 1.0
+  }
+}
