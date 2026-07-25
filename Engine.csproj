@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- NativeAOT is opt-in because it downloads a large platform compiler package.
+         Normal development/build must work without network access. -->
+    <Optimize>true</Optimize>
+    <PublishAot>false</PublishAot>
+  </PropertyGroup>
+
+</Project>
